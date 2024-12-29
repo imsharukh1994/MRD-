@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>MRD - Market Research</title>
-  <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Tool</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Market Research Tool</h1>
-  <div id="subscription-status"></div>
-  <div id="features-list"></div>
-  <button id="upgrade">Upgrade to Pro</button>
-  <button id="upgrade-proplus">Upgrade to Pro+</button>
+    <div class="container">
+        <header>
+            <h1>Market Research Tool</h1>
+        </header>
+        <main>
+            <p>Upgrade your experience to unlock powerful features.</p>
+            <div class="button-container">
+                <button class="button" onclick="upgradeToPro()">Upgrade to Pro</button>
+                <button class="button" onclick="upgradeToProPlus()">Upgrade to Pro+</button>
+            </div>
+        </main>
+    </div>
 
-  <script src="popup.js"></script>
+    <script>
+        function upgradeToPro() {
+            alert("Upgrade to Pro selected!");
+        }
+
+        function upgradeToProPlus() {
+            alert("Upgrade to Pro+ selected!");
+        }
+    </script>
 </body>
 </html>
