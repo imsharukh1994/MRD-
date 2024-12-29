@@ -1,57 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Research Tool</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MRD - Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header>
-            <h1>Welcome to the Market Research Tool</h1>
-            <p>Your ultimate solution for business insights and data-driven decisions.</p>
-        </header>
+  <div class="header">
+    <h1>MRD - Market Research Dropshipping</h1>
+    <p>Your all-in-one dropshipping assistant</p>
+  </div>
 
-        <!-- Features Section -->
-        <main>
-            <section class="features">
-                <h2>Features Available for Free</h2>
-                <ul>
-                    <li>✔️ Access to basic market trend analysis</li>
-                    <li>✔️ Create up to 3 custom reports</li>
-                    <li>✔️ Download basic insights in PDF format</li>
-                </ul>
-            </section>
+  <div class="menu">
+    <button id="productTrends">🔍 Product Trends</button>
+    <button id="competitorInsights">📊 Competitor Insights</button>
+    <button id="supplierData">📦 Supplier Data</button>
+  </div>
 
-            <!-- Pro Features Section -->
-            <section class="features">
-                <h2>Upgrade to Unlock Pro Features</h2>
-                <ul>
-                    <li>🌟 Unlimited market trend analysis</li>
-                    <li>🌟 Advanced analytics and data visualization</li>
-                    <li>🌟 Export insights in multiple formats (Excel, CSV)</li>
-                    <li>🌟 Priority customer support</li>
-                </ul>
-            </section>
+  <div class="main-content">
+    <h2>Welcome!</h2>
+    <p>Select a feature above to start exploring dropshipping insights.</p>
+    <div id="output"></div>
+  </div>
 
-            <!-- Buttons Section -->
-            <div class="button-container">
-                <button class="button" onclick="upgradeToPro()">Upgrade to Pro</button>
-                <button class="button" onclick="upgradeToProPlus()">Upgrade to Pro+</button>
-            </div>
-        </main>
-    </div>
+  <footer>
+    <p>&copy; 2024 MRD. All rights reserved.</p>
+  </footer>
 
-    <script>
-        function upgradeToPro() {
-            alert("Upgrade to Pro selected!");
-        }
-
-        function upgradeToProPlus() {
-            alert("Upgrade to Pro+ selected!");
-        }
-    </script>
+  <script src="popup.js"></script>
 </body>
 </html>
