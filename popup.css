@@ -1,88 +1,65 @@
-/* General Styling */
+/* General Styles */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #4caf50, #8bc34a);
-    color: white;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
 }
 
-/* Container Styling */
-.container {
-    text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
-    width: 90%;
+.header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #0056b3;
 }
 
-/* Header Styling */
-header h1 {
-    color: #4caf50;
-    margin-bottom: 10px;
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
 }
 
-header p {
-    color: #555;
-    font-size: 16px;
-    margin-bottom: 20px;
+.header p {
+  margin: 5px 0;
 }
 
-/* Features Section */
-.features {
-    margin: 20px 0;
+.menu {
+  margin: 20px 0;
 }
 
-.features h2 {
-    color: #4caf50;
-    margin-bottom: 10px;
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.features ul {
-    list-style: none;
-    padding: 0;
+button:hover {
+  background-color: #0056b3;
 }
 
-.features ul li {
-    color: #555;
-    margin: 5px 0;
-    font-size: 14px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
+.main-content {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Button Styling */
-.button-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  font-size: 0.9em;
 }
 
-.button {
-    background: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.button:hover {
-    background: #388e3c;
-    transform: translateY(-2px);
-}
-
-.button:active {
-    transform: translateY(0);
+footer p {
+  margin: 0;
 }
