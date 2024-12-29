@@ -8,16 +8,17 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #4caf50, #8bc34a);
     color: white;
+    text-align: center;
 }
 
 /* Container Styling */
 .container {
     text-align: center;
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 500px;
     width: 90%;
 }
 
@@ -27,11 +28,35 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Main Content Styling */
-main p {
+header p {
     color: #555;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+/* Features Section */
+.features {
+    margin: 20px 0;
+}
+
+.features h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    color: #555;
+    margin: 5px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
 /* Button Styling */
@@ -39,6 +64,7 @@ main p {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .button {
